@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"category": "welcome", "id": 41, "value": 10, "name": "Sanity Check"}, "team": {"id": 9, "name": "Braincrackers"}, "type": "correct", "user": {"id": 36, "name": "Seif"}, "challenge_id": 41, "id": 39, "date": "2023-05-05T15:08:58.189314+00:00"}], "meta": {"count": 1}}

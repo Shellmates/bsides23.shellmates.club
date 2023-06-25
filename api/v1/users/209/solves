@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"category": "pwn", "id": 53, "value": 448, "name": "SYS_ROP"}, "team": {"id": 19, "name": "team_7even"}, "type": "correct", "user": {"id": 209, "name": "Scorpion197"}, "challenge_id": 53, "id": 1241, "date": "2023-05-06T10:29:36.174066+00:00"}], "meta": {"count": 1}}

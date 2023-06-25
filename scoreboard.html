@@ -1,0 +1,2240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BSides Algiers 2023</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co/KG0yBKb/output-onlinepngtools.png"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      href="/themes/bsides/static/css/fonts.min.css?d=fa89f44a"
+    />
+    <link
+      rel="stylesheet"
+      href="/themes/bsides/static/css/main.min.css?d=fa89f44a"
+    />
+    <link
+      rel="stylesheet"
+      href="/themes/bsides/static/css/core.min.css?d=fa89f44a"
+    />
+    
+<link rel="stylesheet" href="/plugins/CTFd_Split_Scoreboard/assets/teams/css/bootstrap-chosen.css"/>
+ 
+    <script type="text/javascript">
+      var init = {
+      	'urlRoot': "",
+      	'csrfNonce': "bc75eb95c1c5256e001d3b88686da35086743938731ef532bb1644d8a005ec43",
+      	'userMode': "teams",
+      	'userId': 0,
+      	'userName': null,
+      	'userEmail': null,
+      	'teamId': null,
+      	'teamName': null,
+      	'start': 1683298800,
+      	'end': 1683385200,
+      	'theme_settings': null
+      }
+    </script>
+    <!-- <style id="theme-color">
+:root {--theme-color: #ca3f3f;}
+.navbar{background-color: var(--theme-color) !important;}
+.jumbotron{background-color: var(--theme-color) !important;}
+</style> -->
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a href="/" class="navbar-brand">
+            <img class="img-responsive ctf_logo" src="https://i.ibb.co/phcxBmv/logo-Besides-1.png" height="25"
+                alt="BSides Algiers 2023">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#base-navbars"
+            aria-controls="base-navbars" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse font-intro text-sm" id="base-navbars">
+            <ul class="navbar-nav mr-auto">
+                
+
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/users">Users</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/teams">Teams</a>
+                </li>
+                
+                
+
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/scoreboard">Scoreboard</a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/challenges">Challenges</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+    <main role="main">
+      
+<div class="jumbotron">
+	<div class="container">
+		<h1>Scoreboard</h1>
+	</div>
+</div>
+<div class="container scoreboardTab">
+	
+	    
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="tab-matched" data-toggle="tab" href="#matched" role="tab" aria-controls="matched" aria-selected="true">Onsite</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="tab-unmatched" data-toggle="tab" href="#unmatched" role="tab" aria-controls="unmatched" aria-selected="false">Online</a>
+        </li>
+		
+    </ul>
+
+
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="matched" role="tabpanel" aria-labelledby="tab-matched">
+            <h2 class="text-center pt-4 scoreboardName">Onsite Scoreboard</h2>
+            <div id="score-graph-matched" class="row">
+                <div id="score-matched" class="col-md-12 text-center">
+                    <i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+                </div>
+            </div>
+		
+			<div id="scoreboard-matched" class="col-md-12">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<td scope="col" width="10px"><b>Place</b></td>
+							<td scope="col"><b>Team</b></td>
+							<td scope="col"><b>Score</b></td>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<th scope="row" class="text-center">1</th>
+							<td>
+								<a href="/teams/12">
+									Heaven’s_Birds
+
+									
+								</a>
+							</td>
+							<td>13482</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">2</th>
+							<td>
+								<a href="/teams/19">
+									team_7even
+
+									
+								</a>
+							</td>
+							<td>12504</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">3</th>
+							<td>
+								<a href="/teams/20">
+									th3_r0n1ns
+
+									
+								</a>
+							</td>
+							<td>9015</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">4</th>
+							<td>
+								<a href="/teams/21">
+									z3r0_d4y
+
+									
+								</a>
+							</td>
+							<td>7517</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">5</th>
+							<td>
+								<a href="/teams/16">
+									REVillains
+
+									
+								</a>
+							</td>
+							<td>7023</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">6</th>
+							<td>
+								<a href="/teams/8">
+									Black Turbans
+
+									
+								</a>
+							</td>
+							<td>6541</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">7</th>
+							<td>
+								<a href="/teams/18">
+									Tab Tab Att4ck
+
+									
+								</a>
+							</td>
+							<td>5142</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">8</th>
+							<td>
+								<a href="/teams/17">
+									shades_of_dark
+
+									
+								</a>
+							</td>
+							<td>5084</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">9</th>
+							<td>
+								<a href="/teams/9">
+									Braincrackers
+
+									
+								</a>
+							</td>
+							<td>4188</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">10</th>
+							<td>
+								<a href="/teams/11">
+									CyberBu9$
+
+									
+								</a>
+							</td>
+							<td>3809</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">11</th>
+							<td>
+								<a href="/teams/24">
+									0v3rFL0w
+
+									
+								</a>
+							</td>
+							<td>3809</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">12</th>
+							<td>
+								<a href="/teams/10">
+									ByteCrafters
+
+									
+								</a>
+							</td>
+							<td>2398</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">13</th>
+							<td>
+								<a href="/teams/15">
+									RASTO
+
+									
+								</a>
+							</td>
+							<td>2398</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">14</th>
+							<td>
+								<a href="/teams/13">
+									HTDBM
+
+									
+								</a>
+							</td>
+							<td>1926</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">15</th>
+							<td>
+								<a href="/teams/14">
+									HZK
+
+									
+								</a>
+							</td>
+							<td>1313</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+        </div>
+
+        <div class="tab-pane fade" id="unmatched" role="tabpanel" aria-labelledby="tab-unmatched">
+            <h2 class="text-center pt-4 scoreboardName">Online Scoreboard</h2>
+            <div id="score-graph-unmatched" class="row">
+                <div id="score-unmatched" class="col-md-12 text-center">
+                    <i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+                </div>
+            </div>
+		
+			<div id="scoreboard-unmatched" class="col-md-12">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<td scope="col" width="10px"><b>Place</b></td>
+							<td scope="col"><b>Team</b></td>
+							<td scope="col"><b>Score</b></td>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<th scope="row" class="text-center">1</th>
+							<td>
+								<a href="/teams/52">
+									./Vespiary
+
+									
+								</a>
+							</td>
+							<td>7646</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">2</th>
+							<td>
+								<a href="/teams/80">
+									K4SEC
+
+									
+								</a>
+							</td>
+							<td>6288</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">3</th>
+							<td>
+								<a href="/teams/63">
+									𝒮𝓌𝑒𝑒𝓉𝒾𝑒𝆍
+
+									
+								</a>
+							</td>
+							<td>4791</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">4</th>
+							<td>
+								<a href="/teams/61">
+									CamelRiders
+
+									
+								</a>
+							</td>
+							<td>3199</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">5</th>
+							<td>
+								<a href="/teams/59">
+									EvilBunnyWrote
+
+									
+								</a>
+							</td>
+							<td>2375</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">6</th>
+							<td>
+								<a href="/teams/141">
+									noname
+
+									
+								</a>
+							</td>
+							<td>2336</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">7</th>
+							<td>
+								<a href="/teams/58">
+									TeamC8
+
+									
+								</a>
+							</td>
+							<td>2022</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">8</th>
+							<td>
+								<a href="/teams/104">
+									exec
+
+									
+								</a>
+							</td>
+							<td>1430</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">9</th>
+							<td>
+								<a href="/teams/161">
+									k
+
+									
+								</a>
+							</td>
+							<td>1426</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">10</th>
+							<td>
+								<a href="/teams/47">
+									duckrice404
+
+									
+								</a>
+							</td>
+							<td>1359</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">11</th>
+							<td>
+								<a href="/teams/150">
+									FR33_T34M_Z
+
+									
+								</a>
+							</td>
+							<td>1311</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">12</th>
+							<td>
+								<a href="/teams/122">
+									icesfont
+
+									
+								</a>
+							</td>
+							<td>1292</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">13</th>
+							<td>
+								<a href="/teams/212">
+									domdomi.world
+
+									
+								</a>
+							</td>
+							<td>1187</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">14</th>
+							<td>
+								<a href="/teams/190">
+									Armitage
+
+									
+								</a>
+							</td>
+							<td>992</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">15</th>
+							<td>
+								<a href="/teams/128">
+									try
+
+									
+								</a>
+							</td>
+							<td>940</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">16</th>
+							<td>
+								<a href="/teams/56">
+									insidious_hex
+
+									
+								</a>
+							</td>
+							<td>930</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">17</th>
+							<td>
+								<a href="/teams/100">
+									limbo
+
+									
+								</a>
+							</td>
+							<td>858</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">18</th>
+							<td>
+								<a href="/teams/142">
+									BC_T3eam
+
+									
+								</a>
+							</td>
+							<td>837</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">19</th>
+							<td>
+								<a href="/teams/188">
+									ctfer
+
+									
+								</a>
+							</td>
+							<td>827</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">20</th>
+							<td>
+								<a href="/teams/60">
+									1nf1n1ty
+
+									
+								</a>
+							</td>
+							<td>594</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">21</th>
+							<td>
+								<a href="/teams/117">
+									Nero-Hero
+
+									
+								</a>
+							</td>
+							<td>594</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">22</th>
+							<td>
+								<a href="/teams/201">
+									wolves
+
+									
+								</a>
+							</td>
+							<td>525</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">23</th>
+							<td>
+								<a href="/teams/73">
+									T35H
+
+									
+								</a>
+							</td>
+							<td>525</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">24</th>
+							<td>
+								<a href="/teams/36">
+									_void
+
+									
+								</a>
+							</td>
+							<td>525</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">25</th>
+							<td>
+								<a href="/teams/75">
+									Blue Star
+
+									
+								</a>
+							</td>
+							<td>489</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">26</th>
+							<td>
+								<a href="/teams/139">
+									CBL
+
+									
+								</a>
+							</td>
+							<td>484</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">27</th>
+							<td>
+								<a href="/teams/66">
+									p3rf3ctr00t_ke
+
+									
+								</a>
+							</td>
+							<td>484</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">28</th>
+							<td>
+								<a href="/teams/30">
+									Null_Bytes
+
+									
+								</a>
+							</td>
+							<td>439</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">29</th>
+							<td>
+								<a href="/teams/86">
+									Du&lt;k
+
+									
+								</a>
+							</td>
+							<td>389</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">30</th>
+							<td>
+								<a href="/teams/62">
+									kamet0
+
+									
+								</a>
+							</td>
+							<td>379</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">31</th>
+							<td>
+								<a href="/teams/206">
+									sp00k
+
+									
+								</a>
+							</td>
+							<td>379</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">32</th>
+							<td>
+								<a href="/teams/125">
+									wonttell
+
+									
+								</a>
+							</td>
+							<td>338</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">33</th>
+							<td>
+								<a href="/teams/136">
+									archbtw
+
+									
+								</a>
+							</td>
+							<td>338</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">34</th>
+							<td>
+								<a href="/teams/207">
+									KomixEs
+
+									
+								</a>
+							</td>
+							<td>338</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">35</th>
+							<td>
+								<a href="/teams/210">
+									Adel
+
+									
+								</a>
+							</td>
+							<td>338</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">36</th>
+							<td>
+								<a href="/teams/215">
+									teamdd
+
+									
+								</a>
+							</td>
+							<td>338</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">37</th>
+							<td>
+								<a href="/teams/101">
+									Unknowns
+
+									
+								</a>
+							</td>
+							<td>146</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">38</th>
+							<td>
+								<a href="/teams/44">
+									BackMoon
+
+									
+								</a>
+							</td>
+							<td>146</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">39</th>
+							<td>
+								<a href="/teams/48">
+									DuckGang
+
+									
+								</a>
+							</td>
+							<td>146</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">40</th>
+							<td>
+								<a href="/teams/126">
+									bdhxgrp
+
+									
+								</a>
+							</td>
+							<td>146</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">41</th>
+							<td>
+								<a href="/teams/38">
+									AN1S
+
+									
+								</a>
+							</td>
+							<td>146</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">42</th>
+							<td>
+								<a href="/teams/78">
+									fzhshzh
+
+									
+								</a>
+							</td>
+							<td>146</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">43</th>
+							<td>
+								<a href="/teams/82">
+									JSoyke
+
+									
+								</a>
+							</td>
+							<td>146</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">44</th>
+							<td>
+								<a href="/teams/179">
+									Sibears
+
+									
+								</a>
+							</td>
+							<td>146</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">45</th>
+							<td>
+								<a href="/teams/196">
+									Slab Allocator
+
+									
+								</a>
+							</td>
+							<td>146</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">46</th>
+							<td>
+								<a href="/teams/114">
+									wh0am1
+
+									
+								</a>
+							</td>
+							<td>136</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">47</th>
+							<td>
+								<a href="/teams/158">
+									AbuAl3of
+
+									
+								</a>
+							</td>
+							<td>136</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">48</th>
+							<td>
+								<a href="/teams/69">
+									Javelin
+
+									
+								</a>
+							</td>
+							<td>96</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">49</th>
+							<td>
+								<a href="/teams/137">
+									0bscur011
+
+									
+								</a>
+							</td>
+							<td>96</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">50</th>
+							<td>
+								<a href="/teams/135">
+									SQLi
+
+									
+								</a>
+							</td>
+							<td>96</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">51</th>
+							<td>
+								<a href="/teams/152">
+									CryJackLee
+
+									
+								</a>
+							</td>
+							<td>96</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">52</th>
+							<td>
+								<a href="/teams/169">
+									elf
+
+									
+								</a>
+							</td>
+							<td>96</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">53</th>
+							<td>
+								<a href="/teams/46">
+									shonan-space
+
+									
+								</a>
+							</td>
+							<td>86</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">54</th>
+							<td>
+								<a href="/teams/108">
+									MasonCC
+
+									
+								</a>
+							</td>
+							<td>60</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">55</th>
+							<td>
+								<a href="/teams/91">
+									gencombd
+
+									
+								</a>
+							</td>
+							<td>60</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">56</th>
+							<td>
+								<a href="/teams/94">
+									CWO
+
+									
+								</a>
+							</td>
+							<td>60</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">57</th>
+							<td>
+								<a href="/teams/43">
+									noraneco
+
+									
+								</a>
+							</td>
+							<td>60</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">58</th>
+							<td>
+								<a href="/teams/172">
+									Technology Interpreters, Inc.
+
+									
+								</a>
+							</td>
+							<td>60</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">59</th>
+							<td>
+								<a href="/teams/109">
+									guohanming
+
+									
+								</a>
+							</td>
+							<td>50</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">60</th>
+							<td>
+								<a href="/teams/129">
+									Norwegian_noobs
+
+									
+								</a>
+							</td>
+							<td>50</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">61</th>
+							<td>
+								<a href="/teams/37">
+									ShadowBit
+
+									
+								</a>
+							</td>
+							<td>50</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">62</th>
+							<td>
+								<a href="/teams/149">
+									i5mai1
+
+									
+								</a>
+							</td>
+							<td>50</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">63</th>
+							<td>
+								<a href="/teams/178">
+									ACE
+
+									
+								</a>
+							</td>
+							<td>50</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">64</th>
+							<td>
+								<a href="/teams/180">
+									goatlord14
+
+									
+								</a>
+							</td>
+							<td>50</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">65</th>
+							<td>
+								<a href="/teams/185">
+									CryptoCrackers
+
+									
+								</a>
+							</td>
+							<td>50</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">66</th>
+							<td>
+								<a href="/teams/191">
+									wgpsec
+
+									
+								</a>
+							</td>
+							<td>50</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">67</th>
+							<td>
+								<a href="/teams/211">
+									BITSkrieg
+
+									
+								</a>
+							</td>
+							<td>50</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">68</th>
+							<td>
+								<a href="/teams/85">
+									YMD
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">69</th>
+							<td>
+								<a href="/teams/84">
+									pakekoding
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">70</th>
+							<td>
+								<a href="/teams/115">
+									potatos
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">71</th>
+							<td>
+								<a href="/teams/113">
+									Liminal
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">72</th>
+							<td>
+								<a href="/teams/120">
+									N1gh7m4reFueL
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">73</th>
+							<td>
+								<a href="/teams/72">
+									NuevaBlueHats
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">74</th>
+							<td>
+								<a href="/teams/133">
+									CTF Players
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">75</th>
+							<td>
+								<a href="/teams/124">
+									sh311Trojan
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">76</th>
+							<td>
+								<a href="/teams/189">
+									killer911
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">77</th>
+							<td>
+								<a href="/teams/194">
+									theOrbit
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">78</th>
+							<td>
+								<a href="/teams/92">
+									Dziq
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">79</th>
+							<td>
+								<a href="/teams/214">
+									BlueEyesT
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">80</th>
+							<td>
+								<a href="/teams/219">
+									Titan Crew
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+						<tr>
+							<th scope="row" class="text-center">81</th>
+							<td>
+								<a href="/teams/220">
+									Neptunians
+
+									
+								</a>
+							</td>
+							<td>10</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</div>
+		
+        </div>
+
+        <div class="tab-pane fade" id="custom" role="tabpanel" aria-labelledby="tab-custom">
+            <h2 class="text-center scoreboardName">Custom Scoreboard</h2>
+            <div class="col-md-12">
+                <form method="post" accept-charset="utf-8" autocomplete="off" role="form" class="form-horizontal" action="#custom">
+                    <select data-placeholder="Select teams to show" multiple class="chosen-select-custom" name="teams">
+                        <option value=""></option>
+                        
+                            
+                                <option value="1">MISC</option>
+                            
+                        
+                            
+                                <option value="2">shellmate</option>
+                            
+                        
+                            
+                                <option value="8">Black Turbans</option>
+                            
+                        
+                            
+                                <option value="9">Braincrackers</option>
+                            
+                        
+                            
+                                <option value="10">ByteCrafters</option>
+                            
+                        
+                            
+                                <option value="11">CyberBu9$</option>
+                            
+                        
+                            
+                                <option value="12">Heaven’s_Birds</option>
+                            
+                        
+                            
+                                <option value="13">HTDBM</option>
+                            
+                        
+                            
+                                <option value="14">HZK</option>
+                            
+                        
+                            
+                                <option value="15">RASTO</option>
+                            
+                        
+                            
+                                <option value="16">REVillains</option>
+                            
+                        
+                            
+                                <option value="17">shades_of_dark</option>
+                            
+                        
+                            
+                                <option value="18">Tab Tab Att4ck</option>
+                            
+                        
+                            
+                                <option value="19">team_7even</option>
+                            
+                        
+                            
+                                <option value="20">th3_r0n1ns</option>
+                            
+                        
+                            
+                                <option value="21">z3r0_d4y</option>
+                            
+                        
+                            
+                                <option value="22">test onsite</option>
+                            
+                        
+                            
+                                <option value="23">test online</option>
+                            
+                        
+                            
+                                <option value="24">0v3rFL0w</option>
+                            
+                        
+                            
+                                <option value="25">test</option>
+                            
+                        
+                            
+                                <option value="26">online</option>
+                            
+                        
+                            
+                                <option value="28">idk</option>
+                            
+                        
+                            
+                                <option value="29">B1n4ry br41n5</option>
+                            
+                        
+                            
+                                <option value="30">Null_Bytes</option>
+                            
+                        
+                            
+                                <option value="31">BYD1970</option>
+                            
+                        
+                            
+                                <option value="32">D4ck3n</option>
+                            
+                        
+                            
+                                <option value="33">Domenikos</option>
+                            
+                        
+                            
+                                <option value="34">wingtip</option>
+                            
+                        
+                            
+                                <option value="35">aixy</option>
+                            
+                        
+                            
+                                <option value="36">_void</option>
+                            
+                        
+                            
+                                <option value="37">ShadowBit</option>
+                            
+                        
+                            
+                                <option value="38">AN1S</option>
+                            
+                        
+                            
+                                <option value="39">h3x.php@gmail.com</option>
+                            
+                        
+                            
+                                <option value="40">SiL3nc_</option>
+                            
+                        
+                            
+                                <option value="41">0xcrusher</option>
+                            
+                        
+                            
+                                <option value="42">taurus</option>
+                            
+                        
+                            
+                                <option value="43">noraneco</option>
+                            
+                        
+                            
+                                <option value="44">BackMoon</option>
+                            
+                        
+                            
+                                <option value="45">bet75</option>
+                            
+                        
+                            
+                                <option value="46">shonan-space</option>
+                            
+                        
+                            
+                                <option value="47">duckrice404</option>
+                            
+                        
+                            
+                                <option value="48">DuckGang</option>
+                            
+                        
+                            
+                                <option value="49">0x1eafb1ad3@gmail.com</option>
+                            
+                        
+                            
+                                <option value="50">shari56</option>
+                            
+                        
+                            
+                                <option value="51">RiST</option>
+                            
+                        
+                            
+                                <option value="52">./Vespiary</option>
+                            
+                        
+                            
+                                <option value="53">Spacetoon</option>
+                            
+                        
+                            
+                                <option value="54">sss</option>
+                            
+                        
+                            
+                                <option value="55">bquanman</option>
+                            
+                        
+                            
+                                <option value="56">insidious_hex</option>
+                            
+                        
+                            
+                                <option value="57">../</option>
+                            
+                        
+                            
+                                <option value="58">TeamC8</option>
+                            
+                        
+                            
+                                <option value="59">EvilBunnyWrote</option>
+                            
+                        
+                            
+                                <option value="60">1nf1n1ty</option>
+                            
+                        
+                            
+                                <option value="61">CamelRiders</option>
+                            
+                        
+                            
+                                <option value="62">kamet0</option>
+                            
+                        
+                            
+                                <option value="63">𝒮𝓌𝑒𝑒𝓉𝒾𝑒𝆍</option>
+                            
+                        
+                            
+                                <option value="64">spooder</option>
+                            
+                        
+                            
+                                <option value="65">Hlohla</option>
+                            
+                        
+                            
+                                <option value="66">p3rf3ctr00t_ke</option>
+                            
+                        
+                            
+                                <option value="67">OSINT_</option>
+                            
+                        
+                            
+                                <option value="68">UwU</option>
+                            
+                        
+                            
+                                <option value="69">Javelin</option>
+                            
+                        
+                            
+                                <option value="70">3660</option>
+                            
+                        
+                            
+                                <option value="71">NorthWest</option>
+                            
+                        
+                            
+                                <option value="72">NuevaBlueHats</option>
+                            
+                        
+                            
+                                <option value="73">T35H</option>
+                            
+                        
+                            
+                                <option value="74">security</option>
+                            
+                        
+                            
+                                <option value="75">Blue Star</option>
+                            
+                        
+                            
+                                <option value="76">AcerNitro_5</option>
+                            
+                        
+                            
+                                <option value="77">prishi</option>
+                            
+                        
+                            
+                                <option value="78">fzhshzh</option>
+                            
+                        
+                            
+                                <option value="79">bearcomi</option>
+                            
+                        
+                            
+                                <option value="80">K4SEC</option>
+                            
+                        
+                            
+                                <option value="81">army_of_one</option>
+                            
+                        
+                            
+                                <option value="82">JSoyke</option>
+                            
+                        
+                            
+                                <option value="83">BoyFromHell</option>
+                            
+                        
+                            
+                                <option value="84">pakekoding</option>
+                            
+                        
+                            
+                                <option value="85">YMD</option>
+                            
+                        
+                            
+                                <option value="86">Du&lt;k</option>
+                            
+                        
+                            
+                                <option value="87">alexius</option>
+                            
+                        
+                            
+                                <option value="88">mememem</option>
+                            
+                        
+                            
+                                <option value="89">0xP17j8xx01</option>
+                            
+                        
+                            
+                                <option value="90">{D3m0Cr4zY}</option>
+                            
+                        
+                            
+                                <option value="91">gencombd</option>
+                            
+                        
+                            
+                                <option value="92">Dziq</option>
+                            
+                        
+                            
+                                <option value="93">hacksum</option>
+                            
+                        
+                            
+                                <option value="94">CWO</option>
+                            
+                        
+                            
+                                <option value="95">c0bra</option>
+                            
+                        
+                            
+                                <option value="96">TestingTest</option>
+                            
+                        
+                            
+                                <option value="97">F100w</option>
+                            
+                        
+                            
+                                <option value="98">aycode</option>
+                            
+                        
+                            
+                                <option value="99">schwein&#39;o&#39;karas</option>
+                            
+                        
+                            
+                                <option value="100">limbo</option>
+                            
+                        
+                            
+                                <option value="101">Unknowns</option>
+                            
+                        
+                            
+                                <option value="102">TeamNameBrr</option>
+                            
+                        
+                            
+                                <option value="103">INVALID_TEAM</option>
+                            
+                        
+                            
+                                <option value="104">exec</option>
+                            
+                        
+                            
+                                <option value="105">L1NC</option>
+                            
+                        
+                            
+                                <option value="106">hakid29</option>
+                            
+                        
+                            
+                                <option value="107">CuzMuz</option>
+                            
+                        
+                            
+                                <option value="108">MasonCC</option>
+                            
+                        
+                            
+                                <option value="109">guohanming</option>
+                            
+                        
+                            
+                                <option value="110">test123</option>
+                            
+                        
+                            
+                                <option value="111">q60</option>
+                            
+                        
+                            
+                                <option value="112">Guangue Rio</option>
+                            
+                        
+                            
+                                <option value="113">Liminal</option>
+                            
+                        
+                            
+                                <option value="114">wh0am1</option>
+                            
+                        
+                            
+                                <option value="115">potatos</option>
+                            
+                        
+                            
+                                <option value="116">aos</option>
+                            
+                        
+                            
+                                <option value="117">Nero-Hero</option>
+                            
+                        
+                            
+                                <option value="118">Amongnud</option>
+                            
+                        
+                            
+                                <option value="119">0x221b</option>
+                            
+                        
+                            
+                                <option value="120">N1gh7m4reFueL</option>
+                            
+                        
+                            
+                                <option value="121">jaktchiksde</option>
+                            
+                        
+                            
+                                <option value="122">icesfont</option>
+                            
+                        
+                            
+                                <option value="123">test0</option>
+                            
+                        
+                            
+                                <option value="124">sh311Trojan</option>
+                            
+                        
+                            
+                                <option value="125">wonttell</option>
+                            
+                        
+                            
+                                <option value="126">bdhxgrp</option>
+                            
+                        
+                            
+                                <option value="127">robot</option>
+                            
+                        
+                            
+                                <option value="128">try</option>
+                            
+                        
+                            
+                                <option value="129">Norwegian_noobs</option>
+                            
+                        
+                            
+                                <option value="130">babyshark</option>
+                            
+                        
+                            
+                                <option value="131">chenx3n</option>
+                            
+                        
+                            
+                                <option value="132">0x00</option>
+                            
+                        
+                            
+                                <option value="133">CTF Players</option>
+                            
+                        
+                            
+                                <option value="134">OAO</option>
+                            
+                        
+                            
+                                <option value="135">SQLi</option>
+                            
+                        
+                            
+                                <option value="136">archbtw</option>
+                            
+                        
+                            
+                                <option value="137">0bscur011</option>
+                            
+                        
+                            
+                                <option value="138">YoungFlexer_GR</option>
+                            
+                        
+                            
+                                <option value="139">CBL</option>
+                            
+                        
+                            
+                                <option value="140">#1</option>
+                            
+                        
+                            
+                                <option value="141">noname</option>
+                            
+                        
+                            
+                                <option value="142">BC_T3eam</option>
+                            
+                        
+                            
+                                <option value="143">baby shark</option>
+                            
+                        
+                            
+                                <option value="144">haha</option>
+                            
+                        
+                            
+                                <option value="145">ahyalanworld</option>
+                            
+                        
+                            
+                                <option value="146">the_heng</option>
+                            
+                        
+                            
+                                <option value="147">1</option>
+                            
+                        
+                            
+                                <option value="148">Zongo</option>
+                            
+                        
+                            
+                                <option value="149">i5mai1</option>
+                            
+                        
+                            
+                                <option value="150">FR33_T34M_Z</option>
+                            
+                        
+                            
+                                <option value="151">r4sti</option>
+                            
+                        
+                            
+                                <option value="152">CryJackLee</option>
+                            
+                        
+                            
+                                <option value="153">F-pa</option>
+                            
+                        
+                            
+                                <option value="154">ant</option>
+                            
+                        
+                            
+                                <option value="155">team eliza</option>
+                            
+                        
+                            
+                                <option value="156">123</option>
+                            
+                        
+                            
+                                <option value="157">fl4g</option>
+                            
+                        
+                            
+                                <option value="158">AbuAl3of</option>
+                            
+                        
+                            
+                                <option value="159">joc</option>
+                            
+                        
+                            
+                                <option value="160">helloworlds</option>
+                            
+                        
+                            
+                                <option value="161">k</option>
+                            
+                        
+                            
+                                <option value="162">ifysec</option>
+                            
+                        
+                            
+                                <option value="163">kgrzk3</option>
+                            
+                        
+                            
+                                <option value="164">nothingmuch</option>
+                            
+                        
+                            
+                                <option value="165">Outlawz</option>
+                            
+                        
+                            
+                                <option value="166">ri5e</option>
+                            
+                        
+                            
+                                <option value="167">outsider</option>
+                            
+                        
+                            
+                                <option value="168">fatos</option>
+                            
+                        
+                            
+                                <option value="169">elf</option>
+                            
+                        
+                            
+                                <option value="170">PersianCats</option>
+                            
+                        
+                            
+                                <option value="171">lmao</option>
+                            
+                        
+                            
+                                <option value="172">Technology Interpreters, Inc.</option>
+                            
+                        
+                            
+                                <option value="173">rrrr</option>
+                            
+                        
+                            
+                                <option value="174">fooker</option>
+                            
+                        
+                            
+                                <option value="175">VPN18</option>
+                            
+                        
+                            
+                                <option value="176">ns4style</option>
+                            
+                        
+                            
+                                <option value="177">Rabbit House</option>
+                            
+                        
+                            
+                                <option value="178">ACE</option>
+                            
+                        
+                            
+                                <option value="179">Sibears</option>
+                            
+                        
+                            
+                                <option value="180">goatlord14</option>
+                            
+                        
+                            
+                                <option value="181">SC@</option>
+                            
+                        
+                            
+                                <option value="182">chanze</option>
+                            
+                        
+                            
+                                <option value="183">5h4rk</option>
+                            
+                        
+                            
+                                <option value="184">eejdee hairtai</option>
+                            
+                        
+                            
+                                <option value="185">CryptoCrackers</option>
+                            
+                        
+                            
+                                <option value="186">noob</option>
+                            
+                        
+                            
+                                <option value="187">taiwhis</option>
+                            
+                        
+                            
+                                <option value="188">ctfer</option>
+                            
+                        
+                            
+                                <option value="189">killer911</option>
+                            
+                        
+                            
+                                <option value="190">Armitage</option>
+                            
+                        
+                            
+                                <option value="191">wgpsec</option>
+                            
+                        
+                            
+                                <option value="192">hackeveryone</option>
+                            
+                        
+                            
+                                <option value="193">TCTN</option>
+                            
+                        
+                            
+                                <option value="194">theOrbit</option>
+                            
+                        
+                            
+                                <option value="195">hi</option>
+                            
+                        
+                            
+                                <option value="196">Slab Allocator</option>
+                            
+                        
+                            
+                                <option value="197">fuckers_and_fuckettes</option>
+                            
+                        
+                            
+                                <option value="198">ssss</option>
+                            
+                        
+                            
+                                <option value="199">attt4111</option>
+                            
+                        
+                            
+                                <option value="200">ARKcy</option>
+                            
+                        
+                            
+                                <option value="201">wolves</option>
+                            
+                        
+                            
+                                <option value="202">thc</option>
+                            
+                        
+                            
+                                <option value="203">whatthefuck</option>
+                            
+                        
+                            
+                                <option value="204">jp</option>
+                            
+                        
+                            
+                                <option value="205">sfa7</option>
+                            
+                        
+                            
+                                <option value="206">sp00k</option>
+                            
+                        
+                            
+                                <option value="207">KomixEs</option>
+                            
+                        
+                            
+                                <option value="208">lukic</option>
+                            
+                        
+                            
+                                <option value="209">tager</option>
+                            
+                        
+                            
+                                <option value="210">Adel</option>
+                            
+                        
+                            
+                                <option value="211">BITSkrieg</option>
+                            
+                        
+                            
+                                <option value="212">domdomi.world</option>
+                            
+                        
+                            
+                                <option value="213">h3ll0</option>
+                            
+                        
+                            
+                                <option value="214">BlueEyesT</option>
+                            
+                        
+                            
+                                <option value="215">teamdd</option>
+                            
+                        
+                            
+                                <option value="216">kewuren</option>
+                            
+                        
+                            
+                                <option value="217">KXTI_Radim</option>
+                            
+                        
+                            
+                                <option value="218">Cyb3rDoctor</option>
+                            
+                        
+                            
+                                <option value="219">Titan Crew</option>
+                            
+                        
+                            
+                                <option value="220">Neptunians</option>
+                            
+                        
+                            
+                                <option value="221">ninja007</option>
+                            
+                        
+                    </select>
+					
+					<input id="nonce" name="nonce" type="hidden" value="bc75eb95c1c5256e001d3b88686da35086743938731ef532bb1644d8a005ec43">
+					
+                    <button type="submit" id="submit" class="btn btn-md btn-primary btn-outlined float-right">Select</button>
+                </form>
+            </div>
+            <div id="score-graph-custom" class="row" style="padding-top:10px;">
+                <div id="score-custom" class="col-md-12 text-center">
+                    <i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+                </div>
+            </div>
+		
+        </div>
+	
+</div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container text-center">
+        <a href="https://ctfd.io" class="text-secondary">
+          <small class="text-muted">Powered by CTFd</small>
+        </a>
+      </div>
+    </footer>
+
+    <script
+      defer
+      src="/themes/bsides/static/js/vendor.bundle.min.js?d=fa89f44a"
+    ></script>
+    <script
+      defer
+      src="/themes/bsides/static/js/core.min.js?d=fa89f44a"
+    ></script>
+    <script
+      defer
+      src="/themes/bsides/static/js/helpers.min.js?d=fa89f44a"
+    ></script>
+
+    
+    <script
+      defer
+      src="/themes/bsides/static/js/pages/main.min.js?d=fa89f44a"
+    ></script>
+     
+	<script defer src="/themes/bsides/static/js/plotly.bundle.min.js?d=fa89f44a"></script>
+	<script>
+	var matched_name = "Onsite";
+	var unmatched_name = "Online";
+	</script>	
+	<script defer src="/plugins/CTFd_Split_Scoreboard/assets/teams/js/moment-with-locales.min.js"></script>
+	<script defer src="/plugins/CTFd_Split_Scoreboard/assets/teams/js/plotly-latest.min.js"></script>
+	<script defer src="/plugins/CTFd_Split_Scoreboard/assets/teams/js/chosen.jquery.min.js"></script>
+	<script defer src="/plugins/CTFd_Split_Scoreboard/assets/teams/js/scoreboard.js"></script>
+
+  
+  </body>
+</html>

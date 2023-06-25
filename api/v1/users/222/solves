@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"category": "forensics", "id": 24, "value": 86, "name": "Strom"}, "team": {"id": 104, "name": "exec"}, "type": "correct", "user": {"id": 222, "name": "rk"}, "challenge_id": 24, "id": 393, "date": "2023-05-05T17:07:45.004253+00:00"}], "meta": {"count": 1}}

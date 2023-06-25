@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"category": "welcome", "id": 41, "value": 10, "name": "Sanity Check"}, "team": {"id": 84, "name": "pakekoding"}, "type": "correct", "user": {"id": 143, "name": "pakekoding"}, "challenge_id": 41, "id": 94, "date": "2023-05-05T15:25:38.738284+00:00"}], "meta": {"count": 1}}
